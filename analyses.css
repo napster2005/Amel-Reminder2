@@ -1,0 +1,35 @@
+body {
+  padding-top: 90px; 
+}
+.header_part{
+  background: #0d6efd;
+  padding: 5px 80px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 9999;
+}
+
+.header_part h4{
+  color: #fff;
+  padding: 10px;
+}
+.header_part img{
+  float: left;
+  height: 60px;
+  border-radius: 50%;
+}
+.data_table{
+  background:#fff;
+  padding: 15px;
+  box-shadow: 1px 3px 5px #aaa;
+  border-radius:5px;
+
+}
+.data_table .btn {
+     padding :5px 10px;
+     margin: 10px 3px 10px 0;
+
+
+}
