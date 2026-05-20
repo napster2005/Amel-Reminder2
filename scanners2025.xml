@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<scanners xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="scanners.xsd"
+patientRef="P01">
+
+<scanner id="S2025_01">
+
+    <dateScanner>
+        <date>2025-01-20</date>
+    </dateScanner>
+
+    <hopital>
+        <nom>Hopital Regional Sadok Mokaddem Djerba</nom>
+        <service>Radiologie</service>
+        <adresse>Djerba Tunisie</adresse>
+    </hopital>
+
+    <serviceMedical>
+        Consultation de Chirurgie
+    </serviceMedical>
+
+    <typeScanner>
+        Thoraco-Abdomino-Pelvien
+    </typeScanner>
+
+    <indication>
+        Surveillance post operatoire ADK colon
+    </indication>
+
+    <technique>
+        Examen realise avec injection du produit de contraste
+    </technique>
+
+    <resultat>
+
+        <thoracique>
+            <detail>Absence de nodules pulmonaires</detail>
+            <detail>Parenchyme pulmonaire normal</detail>
+            <detail>Pas d’adenopathie mediastinale</detail>
+        </thoracique>
+
+        <abdominal>
+            <detail>Foie de taille normale</detail>
+            <detail>Pancreas et reins normaux</detail>
+            <detail>Pas d’epanchement intra peritoneal</detail>
+        </abdominal>
+
+    </resultat>
+
+    <conclusion>
+        Evolution favorable sans anomalie detectee
+    </conclusion>
+
+    <medecin>
+        <nom>Dr Ben Salah</nom>
+        <specialite>Radiologue</specialite>
+    </medecin>
+
+</scanner>
+
+
+<scanner id="S2025_02">
+
+    <dateScanner>
+        <date>2025-06-12</date>
+    </dateScanner>
+
+    <hopital>
+        <nom>Clinique Djerba</nom>
+        <service>Radiologie</service>
+        <adresse>Djerba Midoun</adresse>
+    </hopital>
+
+    <serviceMedical>
+        Suivi medical
+    </serviceMedical>
+
+    <typeScanner>
+        Abdominal
+    </typeScanner>
+
+    <indication>
+        Douleurs abdominales persistantes
+    </indication>
+
+    <technique>
+        Scanner sans injection
+    </technique>
+
+    <resultat>
+
+        <thoracique>
+            <detail>Non realise</detail>
+        </thoracique>
+
+        <abdominal>
+            <detail>Epaississement paroi intestinale</detail>
+            <detail>Suspicion inflammation</detail>
+        </abdominal>
+
+    </resultat>
+
+    <conclusion>
+        Suspicion colite a confirmer
+    </conclusion>
+
+    <medecin>
+        <nom>Dr Trabelsi</nom>
+        <specialite>Radiologue</specialite>
+    </medecin>
+
+</scanner>
+
+</scanners>

@@ -1,0 +1,87 @@
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Analyses</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets analysestableau/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets analysestableau/css/datatables.min.css">
+    <link rel="stylesheet" href="assets analysestableau/css/analyses.css">
+    <link rel="shortcut icon" href="logo_analyses_blue.jpg" type="analyses">
+
+</head>
+<body>
+<header class="header_part">
+  <img src="logo_analyses_blue.jpg" alt="analyses">
+  <h4>Analyses 2021-2025</h4>
+
+</header>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div class="data_table">
+        <table id="example" class="table table-striped table-bordered">
+  <thead class="table-dark">
+    <tr>
+      <th>ID</th>
+      <th>Date</th>
+      <th>Heure</th>
+      <th>Laboratoire</th>
+      <th>Adresse</th>
+      <th>Téléphone</th>
+      <th>Email</th>
+      <th>Type Analyse</th>
+      <th>Tests</th>
+      <th>Conclusion</th>
+      <th>Statut</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Nouveau contenu -->
+    <tr>
+      <td>A2026_01</td>
+      <td>2026-01-10</td>
+      <td>08:30:00</td>
+      <td>Hopital Sahloul</td>
+      <td>Sousse Tunisie</td>
+      <td>+21673250000</td>
+      <td>sahloul@rns.tn</td>
+      <td>Biochimie</td>
+      <td>Glucose: 1.1 g/L (Usuel: 0.7 - 1.1)</td>
+      <td>Valeur limite haute</td>
+      <td><span class="badge bg-warning">Surveiller</span></td>
+    </tr>
+    <tr>
+      <td>A2026_02</td>
+      <td>2026-02-05</td>
+      <td>09:00:00</td>
+      <td>Laboratoire Pasteur</td>
+      <td>Djerba Tunisie</td>
+      <td>+21675611111</td>
+      <td>pasteur.lab@gmail.com</td>
+      <td>Hematologie</td>
+      <td>Hemoglobine: 12.5 g/dL (Usuel: 12 - 16)</td>
+      <td>Normale</td>
+      <td><span class="badge bg-success">normal</span></td>
+    </tr>
+  </tbody>
+</table>
+
+      </div>
+    </div>
+  </div>
+</div>
+ 
+
+
+<script src="assets analysestableau/js/bootstrap.bundle.min.js"></script>
+<script src="assets analysestableau/js/jquery-3.6.0.min.js"></script>
+<script src="assets analysestableau/js/datatables.min.js"></script>
+<script src="assets analysestableau/js/pdfmake.min.js"></script>
+<script src="assets analysestableau/js/vfs_fonts.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/xmllint@0.1.1/xmllint.min.js"></script>
+<script src="parsingAnalyses.js"></script>
+</body>
+</html>

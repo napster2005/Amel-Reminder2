@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<analyses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="analyses.xsd"
+patientRef="P01">
+
+<analyse id="A2023_01">
+<dateAnalyse><date>2023-01-10</date><heure>08:00:00</heure></dateAnalyse>
+<laboratoire><nom>Hopital Regional de Djerba</nom><adresse>Djerba Tunisie</adresse><telephone>+21675600000</telephone><fax>+21675600001</fax><email>hopital.djerba@rns.tn</email></laboratoire>
+<typeAnalyse>Hematologie</typeAnalyse>
+<tests>
+<test nom="Hemoglobine"><valeur unite="g/dL">9.0</valeur><valeurUsuelle>12 - 16</valeurUsuelle></test>
+<test nom="Hematocrite"><valeur unite="%">28</valeur><valeurUsuelle>36 - 46</valeurUsuelle></test>
+<test nom="VGM"><valeur unite="fL">78</valeur><valeurUsuelle>80 - 100</valeurUsuelle></test>
+</tests>
+<conclusion statut="critique">Anemie severe microcytaire</conclusion>
+</analyse>
+
+<analyse id="A2023_02">
+<dateAnalyse><date>2023-01-25</date><heure>09:10:00</heure></dateAnalyse>
+<laboratoire><nom>Laboratoire Pasteur</nom><adresse>Djerba Tunisie</adresse><telephone>+21675611111</telephone><fax>+21675622222</fax><email>pasteur.lab@gmail.com</email></laboratoire>
+<typeAnalyse>Biochimie</typeAnalyse>
+<tests>
+<test nom="Glucose"><valeur unite="g/L">1.5</valeur><valeurUsuelle>0.7 - 1.1</valeurUsuelle></test>
+<test nom="Cholesterol"><valeur unite="g/L">2.4</valeur><valeurUsuelle>1.5 - 2</valeurUsuelle></test>
+</tests>
+<conclusion statut="surveiller">Hyperglycemie et hyperlipidemie</conclusion>
+</analyse>
+
+<analyse id="A2023_03">
+<dateAnalyse><date>2023-02-14</date><heure>08:45:00</heure></dateAnalyse>
+<laboratoire><nom>Laboratoire Bouzidi</nom><adresse>Zarzis Tunisie</adresse><telephone>+21675694329</telephone><fax>+21698430029</fax><email>labouzidihassen1@gmail.com</email></laboratoire>
+<typeAnalyse>Immunologie</typeAnalyse>
+<tests>
+<test nom="Lymphocytes"><valeur unite="10^3/uL">0.6</valeur><valeurUsuelle>1.5 - 4</valeurUsuelle></test>
+<test nom="CD4"><valeur unite="cells/mm3">180</valeur><valeurUsuelle>500 - 1500</valeurUsuelle></test>
+</tests>
+<conclusion statut="critique">Deficit immunitaire severe</conclusion>
+</analyse>
+
+<analyse id="A2023_04">
+<dateAnalyse><date>2023-03-05</date><heure>10:00:00</heure></dateAnalyse>
+<laboratoire><nom>Clinique Djerba</nom><adresse>Djerba Midoun</adresse><telephone>+21675700000</telephone><fax>+21675700001</fax><email>clinique@djerba.tn</email></laboratoire>
+<typeAnalyse>Renal</typeAnalyse>
+<tests>
+<test nom="Creatinine"><valeur unite="mg/L">15</valeur><valeurUsuelle>6 - 12</valeurUsuelle></test>
+<test nom="Uree"><valeur unite="g/L">0.65</valeur><valeurUsuelle>0.15 - 0.45</valeurUsuelle></test>
+<test nom="DFG"><valeur unite="ml/min">50</valeur><valeurUsuelle>90 - 120</valeurUsuelle></test>
+</tests>
+<conclusion statut="critique">Insuffisance renale</conclusion>
+</analyse>
+
+<analyse id="A2023_05">
+<dateAnalyse><date>2023-03-25</date><heure>09:30:00</heure></dateAnalyse>
+<laboratoire><nom>Laboratoire Pasteur</nom><adresse>Djerba Tunisie</adresse><telephone>+21675611111</telephone><fax>+21675622222</fax><email>pasteur.lab@gmail.com</email></laboratoire>
+<typeAnalyse>Marqueur Tumoral</typeAnalyse>
+<tests>
+<test nom="CEA"><valeur unite="ng/ml">9.2</valeur><valeurUsuelle>0 - 3</valeurUsuelle></test>
+<test nom="CA125"><valeur unite="U/ml">60</valeur><valeurUsuelle>0 - 35</valeurUsuelle></test>
+</tests>
+<conclusion statut="critique">Progression tumorale</conclusion>
+</analyse>
+
+<analyse id="A2023_06">
+<dateAnalyse><date>2023-04-18</date><heure>08:20:00</heure></dateAnalyse>
+<laboratoire><nom>Hopital Regional de Djerba</nom><adresse>Djerba Tunisie</adresse><telephone>+21675600000</telephone><fax>+21675600001</fax><email>hopital.djerba@rns.tn</email></laboratoire>
+<typeAnalyse>Hormonologie</typeAnalyse>
+<tests>
+<test nom="TSH"><valeur unite="uIU/ml">0.25</valeur><valeurUsuelle>0.34 - 5.60</valeurUsuelle></test>
+<test nom="Cortisol"><valeur unite="µg/dL">5</valeur><valeurUsuelle>10 - 20</valeurUsuelle></test>
+</tests>
+<conclusion statut="surveiller">Desequilibre hormonal</conclusion>
+</analyse>
+
+<analyse id="A2023_07">
+<dateAnalyse><date>2023-05-02</date><heure>09:00:00</heure></dateAnalyse>
+<laboratoire><nom>Laboratoire Bouzidi</nom><adresse>Zarzis Tunisie</adresse><telephone>+21675694329</telephone><fax>+21698430029</fax><email>labouzidihassen1@gmail.com</email></laboratoire>
+<typeAnalyse>Fer</typeAnalyse>
+<tests>
+<test nom="Ferritine"><valeur unite="ng/ml">6</valeur><valeurUsuelle>30 - 400</valeurUsuelle></test>
+<test nom="Transferrine"><valeur unite="g/L">4.0</valeur><valeurUsuelle>2 - 3.6</valeurUsuelle></test>
+</tests>
+<conclusion statut="critique">Carence severe en fer</conclusion>
+</analyse>
+
+<analyse id="A2023_08">
+<dateAnalyse><date>2023-06-10</date><heure>09:20:00</heure></dateAnalyse>
+<laboratoire><nom>Clinique Djerba</nom><adresse>Djerba Midoun</adresse><telephone>+21675700000</telephone><fax>+21675700001</fax><email>clinique@djerba.tn</email></laboratoire>
+<typeAnalyse>Electrolytes</typeAnalyse>
+<tests>
+<test nom="Sodium"><valeur unite="mmol/L">128</valeur><valeurUsuelle>135 - 145</valeurUsuelle></test>
+<test nom="Potassium"><valeur unite="mmol/L">5.8</valeur><valeurUsuelle>3.5 - 5</valeurUsuelle></test>
+</tests>
+<conclusion statut="critique">Desequilibre ionique</conclusion>
+</analyse>
+
+<analyse id="A2023_09">
+<dateAnalyse><date>2023-07-15</date><heure>08:30:00</heure></dateAnalyse>
+<laboratoire><nom>Laboratoire Pasteur</nom><adresse>Djerba Tunisie</adresse><telephone>+21675611111</telephone><fax>+21675622222</fax><email>pasteur.lab@gmail.com</email></laboratoire>
+<typeAnalyse>Vitamine</typeAnalyse>
+<tests>
+<test nom="Vitamine D"><valeur unite="ng/ml">9</valeur><valeurUsuelle>30 - 100</valeurUsuelle></test>
+<test nom="Vitamine B12"><valeur unite="pg/ml">150</valeur><valeurUsuelle>174 - 878</valeurUsuelle></test>
+</tests>
+<conclusion statut="critique">Carences multiples</conclusion>
+</analyse>
+
+<analyse id="A2023_10">
+<dateAnalyse><date>2023-09-01</date><heure>09:00:00</heure></dateAnalyse>
+<laboratoire><nom>Hopital Regional de Djerba</nom><adresse>Djerba Tunisie</adresse><telephone>+21675600000</telephone><fax>+21675600001</fax><email>hopital.djerba@rns.tn</email></laboratoire>
+<typeAnalyse>Coagulation</typeAnalyse>
+<tests>
+<test nom="TP"><valeur unite="%">60</valeur><valeurUsuelle>70 - 100</valeurUsuelle></test>
+<test nom="INR"><valeur unite="">1.6</valeur><valeurUsuelle>0.8 - 1.2</valeurUsuelle></test>
+</tests>
+<conclusion statut="surveiller">Trouble de coagulation</conclusion>
+</analyse>
+
+<analyse id="A2023_11">
+<dateAnalyse><date>2023-10-12</date><heure>08:50:00</heure></dateAnalyse>
+<laboratoire><nom>Laboratoire Bouzidi</nom><adresse>Zarzis Tunisie</adresse><telephone>+21675694329</telephone><fax>+21698430029</fax><email>labouzidihassen1@gmail.com</email></laboratoire>
+<typeAnalyse>Hematologie</typeAnalyse>
+<tests>
+<test nom="Plaquettes"><valeur unite="10^3/uL">110</valeur><valeurUsuelle>150 - 400</valeurUsuelle></test>
+</tests>
+<conclusion statut="critique">Thrombopenie</conclusion>
+</analyse>
+
+</analyses>

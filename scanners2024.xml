@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<scanners xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="scanners.xsd"
+patientRef="P01">
+
+<scanner id="S2024_01">
+
+    <dateScanner>
+        <date>2024-02-10</date>
+    </dateScanner>
+
+    <hopital>
+        <nom>Hopital Regional Sadok Mokaddem Djerba</nom>
+        <service>Radiologie</service>
+        <adresse>Djerba Tunisie</adresse>
+    </hopital>
+
+    <serviceMedical>
+        Suivi oncologique
+    </serviceMedical>
+
+    <typeScanner>
+        Thoracique
+    </typeScanner>
+
+    <indication>
+        Surveillance evolution maladie
+    </indication>
+
+    <technique>
+        Scanner avec injection du produit de contraste
+    </technique>
+
+    <resultat>
+
+        <thoracique>
+            <detail>Absence de masse pulmonaire</detail>
+            <detail>Pas d adenopathie mediastinale</detail>
+            <detail>Parenchyme pulmonaire normal</detail>
+        </thoracique>
+
+        <abdominal>
+            <detail>Non realise</detail>
+        </abdominal>
+
+    </resultat>
+
+    <conclusion>
+        Etat stable sans anomalie
+    </conclusion>
+
+    <medecin>
+        <nom>Dr Ben Youssef</nom>
+        <specialite>Radiologue</specialite>
+    </medecin>
+
+</scanner>
+
+
+<scanner id="S2024_02">
+
+    <dateScanner>
+        <date>2024-06-18</date>
+    </dateScanner>
+
+    <hopital>
+        <nom>Clinique Djerba</nom>
+        <service>Radiologie</service>
+        <adresse>Djerba Midoun</adresse>
+    </hopital>
+
+    <serviceMedical>
+        Consultation generale
+    </serviceMedical>
+
+    <typeScanner>
+        Abdominal
+    </typeScanner>
+
+    <indication>
+        Douleurs abdominales
+    </indication>
+
+    <technique>
+        Scanner sans injection
+    </technique>
+
+    <resultat>
+
+        <thoracique>
+            <detail>Non concerne</detail>
+        </thoracique>
+
+        <abdominal>
+            <detail>Legere inflammation intestinale</detail>
+            <detail>Pas de masse detectee</detail>
+        </abdominal>
+
+    </resultat>
+
+    <conclusion>
+        Inflammation legere a surveiller
+    </conclusion>
+
+    <medecin>
+        <nom>Dr Trabelsi</nom>
+        <specialite>Radiologue</specialite>
+    </medecin>
+
+</scanner>
+
+
+<scanner id="S2024_03">
+
+    <dateScanner>
+        <date>2024-10-05</date>
+    </dateScanner>
+
+    <hopital>
+        <nom>Hopital Sahloul</nom>
+        <service>Radiologie</service>
+        <adresse>Sousse Tunisie</adresse>
+    </hopital>
+
+    <serviceMedical>
+        Urgence
+    </serviceMedical>
+
+    <typeScanner>
+        Cerebral
+    </typeScanner>
+
+    <indication>
+        Traumatisme cranien
+    </indication>
+
+    <technique>
+        Scanner sans injection
+    </technique>
+
+    <resultat>
+
+        <thoracique>
+            <detail>Non applicable</detail>
+        </thoracique>
+
+        <abdominal>
+            <detail>Non applicable</detail>
+        </abdominal>
+
+    </resultat>
+
+    <conclusion>
+        Absence d hemorragie intracranienne
+    </conclusion>
+
+    <medecin>
+        <nom>Dr Gharbi</nom>
+        <specialite>Radiologue</specialite>
+    </medecin>
+
+</scanner>
+
+</scanners>

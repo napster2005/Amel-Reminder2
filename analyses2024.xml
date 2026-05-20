@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<analyses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="analyses.xsd"
+patientRef="P01">
+
+<analyse id="A2024_01">
+    <dateAnalyse>
+        <date>2024-01-12</date>
+        <heure>08:15:00</heure>
+    </dateAnalyse>
+    <laboratoire>
+        <nom>Hopital Universitaire Sfax</nom>
+        <adresse>Sfax Tunisie</adresse>
+        <telephone>+21674200000</telephone>
+        <fax>+21674200001</fax>
+        <email>chu.sfax@rns.tn</email>
+    </laboratoire>
+    <typeAnalyse>Hematologie</typeAnalyse>
+    <tests>
+        <test nom="Hemoglobine">
+            <valeur unite="g/dL">11.2</valeur>
+            <valeurUsuelle>12 - 16</valeurUsuelle>
+        </test>
+        <test nom="Leucocytes">
+            <valeur unite="10^3/uL">13</valeur>
+            <valeurUsuelle>4 - 10</valeurUsuelle>
+        </test>
+    </tests>
+    <conclusion statut="surveiller">Anemie legere et infection possible</conclusion>
+</analyse>
+
+<analyse id="A2024_02">
+    <dateAnalyse>
+        <date>2024-02-05</date>
+        <heure>09:00:00</heure>
+    </dateAnalyse>
+    <laboratoire>
+        <nom>Laboratoire Ennasr</nom>
+        <adresse>Tunis Tunisie</adresse>
+        <telephone>+21671234567</telephone>
+        <fax>+21671234568</fax>
+        <email>lab.ennasr@gmail.com</email>
+    </laboratoire>
+    <typeAnalyse>Biochimie</typeAnalyse>
+    <tests>
+        <test nom="Glucose">
+            <valeur unite="g/L">0.95</valeur>
+            <valeurUsuelle>0.7 - 1.1</valeurUsuelle>
+        </test>
+        <test nom="Triglycerides">
+            <valeur unite="g/L">1.8</valeur>
+            <valeurUsuelle>0.5 - 1.5</valeurUsuelle>
+        </test>
+    </tests>
+    <conclusion statut="normal">Bilan globalement normal</conclusion>
+</analyse>
+
+<analyse id="A2024_03">
+    <dateAnalyse>
+        <date>2024-03-18</date>
+        <heure>08:40:00</heure>
+    </dateAnalyse>
+    <laboratoire>
+        <nom>Clinique Ariana</nom>
+        <adresse>Ariana Tunisie</adresse>
+        <telephone>+21671300000</telephone>
+        <fax>+21671300001</fax>
+        <email>clinique.ariana@gmail.com</email>
+    </laboratoire>
+    <typeAnalyse>Cardiaque</typeAnalyse>
+    <tests>
+        <test nom="Troponine">
+            <valeur unite="ng/ml">0.8</valeur>
+            <valeurUsuelle>0 - 0.04</valeurUsuelle>
+        </test>
+    </tests>
+    <conclusion statut="critique">Suspicion infarctus</conclusion>
+</analyse>
+
+<analyse id="A2024_04">
+    <dateAnalyse>
+        <date>2024-04-10</date>
+        <heure>10:10:00</heure>
+    </dateAnalyse>
+    <laboratoire>
+        <nom>Laboratoire Pasteur</nom>
+        <adresse>Tunis Tunisie</adresse>
+        <telephone>+21675611111</telephone>
+        <fax>+21675622222</fax>
+        <email>pasteur.lab@gmail.com</email>
+    </laboratoire>
+    <typeAnalyse>Renal</typeAnalyse>
+    <tests>
+        <test nom="Creatinine">
+            <valeur unite="mg/L">11</valeur>
+            <valeurUsuelle>6 - 12</valeurUsuelle>
+        </test>
+        <test nom="Uree">
+            <valeur unite="g/L">0.4</valeur>
+            <valeurUsuelle>0.15 - 0.45</valeurUsuelle>
+        </test>
+    </tests>
+    <conclusion statut="normal">Fonction renale normale</conclusion>
+</analyse>
+
+<analyse id="A2024_05">
+    <dateAnalyse>
+        <date>2024-05-22</date>
+        <heure>09:25:00</heure>
+    </dateAnalyse>
+    <laboratoire>
+        <nom>Hopital La Rabta</nom>
+        <adresse>Tunis Tunisie</adresse>
+        <telephone>+21671578900</telephone>
+        <fax>+21671578901</fax>
+        <email>rabta@rns.tn</email>
+    </laboratoire>
+    <typeAnalyse>Immunologie</typeAnalyse>
+    <tests>
+        <test nom="CRP">
+            <valeur unite="mg/L">45</valeur>
+            <valeurUsuelle>0 - 5</valeurUsuelle>
+        </test>
+    </tests>
+    <conclusion statut="critique">Inflammation severe</conclusion>
+</analyse>
+
+<analyse id="A2024_06">
+    <dateAnalyse>
+        <date>2024-06-30</date>
+        <heure>08:50:00</heure>
+    </dateAnalyse>
+    <laboratoire>
+        <nom>Laboratoire Bouzidi</nom>
+        <adresse>Zarzis Tunisie</adresse>
+        <telephone>+21675694329</telephone>
+        <fax>+21698430029</fax>
+        <email>labouzidihassen1@gmail.com</email>
+    </laboratoire>
+    <typeAnalyse>Hormonal</typeAnalyse>
+    <tests>
+        <test nom="TSH">
+            <valeur unite="uIU/ml">3.2</valeur>
+            <valeurUsuelle>0.34 - 5.60</valeurUsuelle>
+        </test>
+    </tests>
+    <conclusion statut="normal">Fonction thyroidienne normale</conclusion>
+</analyse>
+
+<analyse id="A2024_07">
+    <dateAnalyse>
+        <date>2024-07-15</date>
+        <heure>09:10:00</heure>
+    </dateAnalyse>
+    <laboratoire>
+        <nom>Clinique Djerba</nom>
+        <adresse>Djerba Midoun</adresse>
+        <telephone>+21675700000</telephone>
+        <fax>+21675700001</fax>
+        <email>clinique@djerba.tn</email>
+    </laboratoire>
+    <typeAnalyse>Electrolytes</typeAnalyse>
+    <tests>
+        <test nom="Sodium">
+            <valeur unite="mmol/L">140</valeur>
+            <valeurUsuelle>135 - 145</valeurUsuelle>
+        </test>
+        <test nom="Potassium">
+            <valeur unite="mmol/L">4.2</valeur>
+            <valeurUsuelle>3.5 - 5</valeurUsuelle>
+        </test>
+    </tests>
+    <conclusion statut="normal">Equilibre ionique normal</conclusion>
+</analyse>
+
+<analyse id="A2024_08">
+    <dateAnalyse>
+        <date>2024-09-05</date>
+        <heure>08:30:00</heure>
+    </dateAnalyse>
+    <laboratoire>
+        <nom>Hopital Regional de Djerba</nom>
+        <adresse>Djerba Tunisie</adresse>
+        <telephone>+21675600000</telephone>
+        <fax>+21675600001</fax>
+        <email>hopital.djerba@rns.tn</email>
+    </laboratoire>
+    <typeAnalyse>Vitamine</typeAnalyse>
+    <tests>
+        <test nom="Vitamine D">
+            <valeur unite="ng/ml">32</valeur>
+            <valeurUsuelle>30 - 100</valeurUsuelle>
+        </test>
+    </tests>
+    <conclusion statut="normal">Niveau vitaminique correct</conclusion>
+</analyse>
+
+</analyses>

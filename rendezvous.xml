@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<rendezvous xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="rendezvous.xsd">
+
+  <!-- Consultation -->
+  <rdv id="R01" type="consultation" statut="termine" priorite="haute">
+    <dateRdv>
+      <date>2023-03-10</date>
+      <heure>10:00:00</heure>
+    </dateRdv>
+    <medecin>
+      <nom>Dr Ben Salah</nom>
+      <specialite>Oncologue</specialite>
+    </medecin>
+    <lieu>
+      <nom>Clinique Djerba</nom>
+      <adresse>Djerba Midoun</adresse>
+    </lieu>
+    <motif>Premiere consultation</motif>
+  </rdv>
+
+  <!-- Analyse -->
+  <rdv id="R02" type="analyse" statut="termine" priorite="haute">
+    <dateRdv>
+      <date>2023-03-12</date>
+      <heure>08:00:00</heure>
+    </dateRdv>
+    <lieu>
+      <nom>Laboratoire Pasteur</nom>
+      <adresse>Djerba Tunisie</adresse>
+    </lieu>
+    <motif>Analyses initiales</motif>
+  </rdv>
+
+  <!-- Chimiothérapie -->
+  <rdv id="R03" type="chimiotherapie" statut="termine" priorite="haute">
+    <dateRdv>
+      <date>2024-02-15</date>
+      <heure>08:30:00</heure>
+    </dateRdv>
+    <medecin>
+      <nom>Dr Trabelsi</nom>
+      <specialite>Oncologue</specialite>
+    </medecin>
+    <lieu>
+      <nom>Hopital Regional Djerba</nom>
+      <adresse>Djerba Tunisie</adresse>
+    </lieu>
+    <motif>Seance chimiotherapie cycle 1</motif>
+  </rdv>
+
+  <!-- Consultation -->
+  <rdv id="R04" type="consultation" statut="termine" priorite="moyenne">
+    <dateRdv>
+      <date>2024-09-15</date>
+      <heure>09:00:00</heure>
+    </dateRdv>
+    <medecin>
+      <nom>Dr Gharbi</nom>
+      <specialite>Radiologue</specialite>
+    </medecin>
+    <lieu>
+      <nom>Clinique Djerba</nom>
+      <adresse>Djerba Midoun</adresse>
+    </lieu>
+    <motif>Evaluation et suivi</motif>
+  </rdv>
+
+  <!-- Chimiothérapie planifiée -->
+  <rdv id="R05" type="chimiotherapie" statut="planifie" priorite="haute">
+    <dateRdv>
+      <date>2025-02-15</date>
+      <heure>08:30:00</heure>
+    </dateRdv>
+    <medecin>
+      <nom>Dr Ben Salah</nom>
+      <specialite>Oncologue</specialite>
+    </medecin>
+    <lieu>
+      <nom>Hopital Sahloul</nom>
+      <adresse>Sousse Tunisie</adresse>
+    </lieu>
+    <motif>Seance chimiotherapie cycle 2</motif>
+  </rdv>
+
+  <!-- Analyse planifiée -->
+  <rdv id="R06" type="analyse" statut="planifie" priorite="moyenne">
+    <dateRdv>
+      <date>2025-03-05</date>
+      <heure>07:45:00</heure>
+    </dateRdv>
+    <lieu>
+      <nom>Laboratoire Pasteur</nom>
+      <adresse>Djerba Tunisie</adresse>
+    </lieu>
+    <motif>Bilan sanguin complet</motif>
+  </rdv>
+
+  <!-- Consultation annulée -->
+  <rdv id="R07" type="consultation" statut="annule" priorite="faible">
+    <dateRdv>
+      <date>2025-04-10</date>
+      <heure>10:00:00</heure>
+    </dateRdv>
+    <medecin>
+      <nom>Dr Trabelsi</nom>
+      <specialite>Generaliste</specialite>
+    </medecin>
+    <lieu>
+      <nom>Clinique Djerba</nom>
+      <adresse>Djerba Midoun</adresse>
+    </lieu>
+    <motif>Consultation reportee</motif>
+  </rdv>
+
+  <!-- Scanner terminé -->
+  <rdv id="S01" type="scanner" statut="termine" priorite="haute">
+    <dateRdv>
+      <date>2025-05-20</date>
+      <heure>09:15:00</heure>
+    </dateRdv>
+    <medecin>
+      <nom>Dr Mansour</nom>
+      <specialite>Radiologue</specialite>
+    </medecin>
+    <lieu>
+      <nom>Centre Imagerie Médicale</nom>
+      <adresse>Djerba Houmt Souk</adresse>
+    </lieu>
+    <motif>Scanner thoracique de contrôle</motif>
+  </rdv>
+
+  <!-- Scanner planifié -->
+  <rdv id="S02" type="scanner" statut="planifie" priorite="moyenne">
+    <dateRdv>
+      <date>2025-06-10</date>
+      <heure>11:00:00</heure>
+    </dateRdv>
+    <lieu>
+      <nom>Clinique Djerba</nom>
+      <adresse>Djerba Midoun</adresse>
+    </lieu>
+    <motif>Scanner abdominal prévu</motif>
+  </rdv>
+
+  <!-- Scanner annulé -->
+  <rdv id="S03" type="scanner" statut="annule" priorite="faible">
+    <dateRdv>
+      <date>2025-07-01</date>
+      <heure>14:30:00</heure>
+    </dateRdv>
+    <lieu>
+      <nom>Hopital Régional Djerba</nom>
+      <adresse>Djerba Tunisie</adresse>
+    </lieu>
+    <motif>Scanner annulé par patient</motif>
+  </rdv>
+
+  <!-- Scanner terminé -->
+  <rdv id="S04" type="scanner" statut="termine" priorite="haute">
+    <dateRdv>
+      <date>2025-08-15</date>
+      <heure>08:00:00</heure>
+    </dateRdv>
+    <medecin>
+      <nom>Dr Gharbi</nom>
+      <specialite>Radiologue</specialite>
+    </medecin>
+    <lieu>
+      <nom>Centre Médical Sousse</nom>
+      <adresse>Sousse Tunisie</adresse>
+    </lieu>
+    <motif>Scanner cérébral</motif>
+  </rdv>
+
+  <!-- Scanner planifié -->
+  <rdv id="S05" type="scanner" statut="planifie" priorite="moyenne">
+    <dateRdv>
+      <date>2025-09-05</date>
+      <heure>10:45:00</heure>
+    </dateRdv>
+    <lieu>
+      <nom>Clinique Pasteur</nom>
+      <adresse>Tunis Tunisie</adresse>
+    </lieu>
+    <motif>Scanner cardiaque</motif>
+  </rdv>
+
+</rendezvous>

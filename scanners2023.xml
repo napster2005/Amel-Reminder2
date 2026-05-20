@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<scanners xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="scanners.xsd"
+patientRef="P01">
+
+<scanner id="S2023_01">
+
+    <dateScanner>
+        <date>2023-03-15</date>
+    </dateScanner>
+
+    <hopital>
+        <nom>Hopital Regional Sadok Mokaddem Djerba</nom>
+        <service>Radiologie</service>
+        <adresse>Djerba Tunisie</adresse>
+    </hopital>
+
+    <serviceMedical>
+        Consultation de Chirurgie
+    </serviceMedical>
+
+    <typeScanner>
+        Thoraco-Abdomino-Pelvien
+    </typeScanner>
+
+    <indication>
+        Bilan initial apres chirurgie colon
+    </indication>
+
+    <technique>
+        Examen realise avec injection du produit de contraste
+    </technique>
+
+    <resultat>
+
+        <thoracique>
+            <detail>Nodule thyroidien gauche de 16 mm</detail>
+            <detail>Pas d adenopathie mediastinale</detail>
+            <detail>Parenchyme pulmonaire sans anomalie</detail>
+        </thoracique>
+
+        <abdominal>
+            <detail>Foie de taille normale</detail>
+            <detail>Pancreas normal</detail>
+            <detail>Reins d aspect normal</detail>
+            <detail>Pas d epanchement intra peritoneal</detail>
+        </abdominal>
+
+    </resultat>
+
+    <conclusion>
+        Absence de metastases detectables
+    </conclusion>
+
+    <medecin>
+        <nom>Dr Zayoud Fethi</nom>
+        <specialite>Radiologue</specialite>
+    </medecin>
+
+</scanner>
+
+
+<scanner id="S2023_02">
+
+    <dateScanner>
+        <date>2023-07-10</date>
+    </dateScanner>
+
+    <hopital>
+        <nom>Clinique Djerba</nom>
+        <service>Radiologie</service>
+        <adresse>Djerba Midoun</adresse>
+    </hopital>
+
+    <serviceMedical>
+        Suivi post operatoire
+    </serviceMedical>
+
+    <typeScanner>
+        Abdominal
+    </typeScanner>
+
+    <indication>
+        Controle evolution
+    </indication>
+
+    <technique>
+        Scanner avec injection
+    </technique>
+
+    <resultat>
+
+        <thoracique>
+            <detail>Non realise</detail>
+        </thoracique>
+
+        <abdominal>
+            <detail>Pas de masse suspecte</detail>
+            <detail>Structure digestive normale</detail>
+        </abdominal>
+
+    </resultat>
+
+    <conclusion>
+        Evolution stable
+    </conclusion>
+
+    <medecin>
+        <nom>Dr Trabelsi</nom>
+        <specialite>Radiologue</specialite>
+    </medecin>
+
+</scanner>
+
+
+<scanner id="S2023_03">
+
+    <dateScanner>
+        <date>2023-11-22</date>
+    </dateScanner>
+
+    <hopital>
+        <nom>Hopital Sahloul</nom>
+        <service>Radiologie</service>
+        <adresse>Sousse Tunisie</adresse>
+    </hopital>
+
+    <serviceMedical>
+        Urgence
+    </serviceMedical>
+
+    <typeScanner>
+        Thoracique
+    </typeScanner>
+
+    <indication>
+        Douleur thoracique
+    </indication>
+
+    <technique>
+        Scanner sans injection
+    </technique>
+
+    <resultat>
+
+        <thoracique>
+            <detail>Pas d embolie pulmonaire</detail>
+            <detail>Pas d epanchement pleural</detail>
+        </thoracique>
+
+        <abdominal>
+            <detail>Non concerne</detail>
+        </abdominal>
+
+    </resultat>
+
+    <conclusion>
+        Absence d anomalie thoracique
+    </conclusion>
+
+    <medecin>
+        <nom>Dr Gharbi</nom>
+        <specialite>Radiologue</specialite>
+    </medecin>
+
+</scanner>
+
+</scanners>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Type de rendez-vous -->
+  <xs:simpleType name="typeRdv">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="consultation"/>
+      <xs:enumeration value="chimiotherapie"/>
+      <xs:enumeration value="analyse"/>
+      <xs:enumeration value="scanner"/> <!-- Nouveau type ajouté -->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Statut du rendez-vous -->
+  <xs:simpleType name="statutRdv">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="planifie"/>
+      <xs:enumeration value="termine"/>
+      <xs:enumeration value="annule"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Priorité -->
+  <xs:simpleType name="prioriteType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="faible"/>
+      <xs:enumeration value="moyenne"/>
+      <xs:enumeration value="haute"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Élément racine -->
+  <xs:element name="rendezvous">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="rdv" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="dateRdv">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="date" type="xs:date"/>
+                    <xs:element name="heure" type="xs:time"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+              <xs:element name="medecin" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="nom" type="xs:string"/>
+                    <xs:element name="specialite" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+              <xs:element name="lieu">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="nom" type="xs:string"/>
+                    <xs:element name="adresse" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+              <xs:element name="motif" type="xs:string"/>
+            </xs:sequence>
+
+            <!-- Attributs -->
+            <xs:attribute name="id" type="xs:ID" use="required"/>
+            <xs:attribute name="type" type="typeRdv" use="required"/>
+            <xs:attribute name="statut" type="statutRdv" use="required"/>
+            <xs:attribute name="priorite" type="prioriteType" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

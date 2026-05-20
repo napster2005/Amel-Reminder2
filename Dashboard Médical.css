@@ -1,0 +1,60 @@
+/* ------------------------------
+   Typographie et corps
+------------------------------ */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* ------------------------------
+   Header (bouton chercher)
+------------------------------ */
+header form .btn {
+  background-color: #8c68cd;
+}
+header form .btn:hover {
+  background-color: #a88ae0;
+  color: #fff;
+}
+
+/* ------------------------------
+   Sidebar navigation
+------------------------------ */
+.sidebar .nav-link {
+  color: #212529;
+}
+.sidebar .nav-link:hover,
+.sidebar .nav-link:focus {
+  background-color: #f0f0f0;
+  font-weight: 600;
+}
+
+/* ------------------------------
+   Cartes (background + icônes)
+------------------------------ */
+.card1 { background-color: #b4eaf6; }
+.card2 { background-color: #f6d6d6; }
+.card3 { background-color: #d6f6e4; }
+.card4 { background-color: #fff3cd; }
+
+.card1 i,
+.card2 i,
+.card3 i,
+.card4 i {
+  font-size: 2rem;
+}
+
+/* ------------------------------
+   Couleurs homogènes entre texte et fond de carte
+------------------------------ */
+.span-analyses { color: #0d6efd; }   /* Bleu */
+.span-scanners { color: #e83e8c; }   /* Rose */
+.span-rdv      { color: #28a745; }   /* Vert */
+.span-meds     { color: #ffc107; }   /* Jaune */
+
+/* ------------------------------
+   Progress bars (couleurs alignées aux cartes)
+------------------------------ */
+.progress-analyses { background-color: #0d6efd; }
+.progress-scanners { background-color: #e83e8c; }
+.progress-rdv      { background-color: #28a745; }
+.progress-meds     { background-color: #ffc107; }

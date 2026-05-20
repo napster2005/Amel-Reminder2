@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:simpleType name="typeMed">
+    <xs:restriction base="xs:string">
+        <xs:enumeration value="traitement"/>
+        <xs:enumeration value="support"/>
+        <xs:enumeration value="complement"/>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="achatType">
+    <xs:restriction base="xs:string">
+        <xs:enumeration value="oui"/>
+        <xs:enumeration value="non"/>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="prioriteType">
+    <xs:restriction base="xs:string">
+        <xs:enumeration value="faible"/>
+        <xs:enumeration value="moyenne"/>
+        <xs:enumeration value="haute"/>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:element name="medicaments">
+    <xs:complexType>
+        <xs:sequence>
+
+            <xs:element name="medicament" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+
+                        <xs:element name="nom" type="xs:string"/>
+                        <xs:element name="dosage" type="xs:string"/>
+
+                        <xs:element name="prix">
+                            <xs:complexType>
+                                <xs:simpleContent>
+                                    <xs:extension base="xs:decimal">
+                                        <xs:attribute name="devise" type="xs:string" use="required"/>
+                                    </xs:extension>
+                                </xs:simpleContent>
+                            </xs:complexType>
+                        </xs:element>
+
+                        <xs:element name="quantite">
+                            <xs:complexType>
+                                <xs:simpleContent>
+                                    <xs:extension base="xs:integer">
+                                        <xs:attribute name="unite" type="xs:string" use="optional"/>
+                                    </xs:extension>
+                                </xs:simpleContent>
+                            </xs:complexType>
+                        </xs:element>
+
+                        <xs:element name="indication" type="xs:string"/>
+                        <xs:element name="justification" type="xs:string"/>
+
+                        <xs:element name="effetsSecondaires">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="effet" type="xs:string" maxOccurs="unbounded"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+
+                    </xs:sequence>
+
+                    <xs:attribute name="id" type="xs:ID" use="required"/>
+                    <xs:attribute name="type" type="typeMed" use="required"/>
+                    <xs:attribute name="achete" type="achatType" use="required"/>
+                    <xs:attribute name="priorite" type="prioriteType" use="optional"/>
+
+                </xs:complexType>
+            </xs:element>
+
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+</xs:schema>

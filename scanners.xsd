@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="scanners">
+        <xs:complexType>
+            <xs:sequence>
+
+                <xs:element name="scanner" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+
+                            <!-- dateScanner -->
+                            <xs:element name="dateScanner">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="date" type="xs:date"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <!-- hopital -->
+                            <xs:element name="hopital">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nom" type="xs:string"/>
+                                        <xs:element name="service" type="xs:string"/>
+                                        <xs:element name="adresse" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <!-- serviceMedical -->
+                            <xs:element name="serviceMedical" type="xs:string"/>
+
+                            <!-- typeScanner -->
+                            <xs:element name="typeScanner" type="xs:string"/>
+
+                            <!-- indication -->
+                            <xs:element name="indication" type="xs:string"/>
+
+                            <!-- technique -->
+                            <xs:element name="technique" type="xs:string"/>
+
+                            <!-- resultat -->
+                            <xs:element name="resultat">
+                                <xs:complexType>
+                                    <xs:sequence>
+
+                                        <xs:element name="thoracique">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="detail" type="xs:string" maxOccurs="unbounded"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+
+                                        <xs:element name="abdominal">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="detail" type="xs:string" maxOccurs="unbounded"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <!-- conclusion -->
+                            <xs:element name="conclusion" type="xs:string"/>
+
+                            <!-- medecin -->
+                            <xs:element name="medecin">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nom" type="xs:string"/>
+                                        <xs:element name="specialite" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                        </xs:sequence>
+
+                        <!-- attribut id -->
+                        <xs:attribute name="id" type="xs:ID" use="required"/>
+
+                    </xs:complexType>
+                </xs:element>
+
+            </xs:sequence>
+
+            <!-- attribut patientRef -->
+            <xs:attribute name="patientRef" type="xs:string" use="required"/>
+
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

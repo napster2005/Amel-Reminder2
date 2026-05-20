@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:simpleType name="telTN">
+    <xs:restriction base="xs:string">
+        <xs:pattern value="\+216[0-9]{8}"/>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="emailType">
+    <xs:restriction base="xs:string">
+        <xs:pattern value="[^@]+@[^@]+\.[^@]+"/>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="statutType">
+    <xs:restriction base="xs:string">
+        <xs:enumeration value="normal"/>
+        <xs:enumeration value="surveiller"/>
+        <xs:enumeration value="critique"/>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:element name="analyses">
+    <xs:complexType>
+        <xs:sequence>
+
+            <xs:element name="analyse" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+
+                        <xs:element name="dateAnalyse">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="date" type="xs:date"/>
+                                    <xs:element name="heure" type="xs:time"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+
+                        <xs:element name="laboratoire">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="nom" type="xs:string"/>
+                                    <xs:element name="adresse" type="xs:string"/>
+                                    <xs:element name="telephone" type="telTN"/>
+                                    <xs:element name="fax" type="telTN"/>
+                                    <xs:element name="email" type="emailType"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+
+                        <xs:element name="typeAnalyse" type="xs:string"/>
+
+                        <xs:element name="tests">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="test" maxOccurs="unbounded">
+                                        <xs:complexType>
+                                            <xs:sequence>
+                                                <xs:element name="valeur">
+                                                    <xs:complexType>
+                                                        <xs:simpleContent>
+                                                            <xs:extension base="xs:decimal">
+                                                                <xs:attribute name="unite" type="xs:string" use="required"/>
+                                                            </xs:extension>
+                                                        </xs:simpleContent>
+                                                    </xs:complexType>
+                                                </xs:element>
+                                                <xs:element name="valeurUsuelle" type="xs:string"/>
+                                            </xs:sequence>
+                                            <xs:attribute name="nom" type="xs:string" use="required"/>
+                                        </xs:complexType>
+                                    </xs:element>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+
+                        <xs:element name="conclusion">
+                            <xs:complexType mixed="true">
+                                <xs:attribute name="statut" type="statutType" use="required"/>
+                            </xs:complexType>
+                        </xs:element>
+
+                    </xs:sequence>
+
+                    <xs:attribute name="id" type="xs:ID" use="required"/>
+
+                </xs:complexType>
+            </xs:element>
+
+        </xs:sequence>
+
+        <xs:attribute name="patientRef" type="xs:string" use="required"/>
+
+    </xs:complexType>
+</xs:element>
+
+</xs:schema>

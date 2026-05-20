@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<medicaments xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="medicaments.xsd">
+
+<medicament id="M01" type="traitement" achete="non" priorite="haute">
+    <nom>Capecitabine</nom>
+    <dosage>500 mg</dosage>
+    <prix devise="DT">120</prix>
+    <quantite>2</quantite>
+    <indication>Traitement cancer du colon</indication>
+    <justification>Suivi post-chimiotherapie</justification>
+    <effetsSecondaires>
+        <effet>Fatigue</effet>
+            <effet>Nausees</effet>
+        <effet>Diarrhee</effet>
+    </effetsSecondaires>
+</medicament>
+
+<medicament id="M02" type="support" achete="non" priorite="haute">
+    <nom>Fer</nom>
+    <dosage>80 mg</dosage>
+    <prix devise="DT">22</prix>
+    <quantite>1</quantite>
+    <indication>Anemie</indication>
+    <justification>Hemoglobine basse dans analyses</justification>
+    <effetsSecondaires>
+        <effet>Constipation</effet>
+        <effet>Douleurs abdominales</effet>
+    </effetsSecondaires>
+</medicament>
+
+<medicament id="M03" type="support" achete="non" priorite="haute">
+    <nom>Vitamine B12</nom>
+    <dosage>1000 µg</dosage>
+    <prix devise="DT">18</prix>
+    <quantite>1</quantite>
+    <indication>Carence vitamine B12</indication>
+    <justification>Valeur basse dans analyses</justification>
+    <effetsSecondaires>
+        <effet>Rare</effet>
+    </effetsSecondaires>
+</medicament>
+
+<medicament id="M04" type="support" achete="non" priorite="moyenne">
+    <nom>Vitamine D</nom>
+    <dosage>1000 UI</dosage>
+    <prix devise="DT">18</prix>
+    <quantite>1</quantite>
+    <indication>Carence vitamine D</indication>
+    <justification>Deficit observe dans analyses</justification>
+    <effetsSecondaires>
+        <effet>Rare en surdosage</effet>
+    </effetsSecondaires>
+</medicament>
+
+<medicament id="M05" type="support" achete="non" priorite="haute">
+    <nom>Ondansetron</nom>
+    <dosage>8 mg</dosage>
+    <prix devise="DT">35</prix>
+    <quantite>1</quantite>
+    <indication>Nausees post-chimiotherapie</indication>
+    <justification>Effet secondaire du traitement</justification>
+    <effetsSecondaires>
+        <effet>Constipation</effet>
+        <effet>Maux de tete</effet>
+    </effetsSecondaires>
+</medicament>
+
+<medicament id="M06" type="support" achete="non" priorite="moyenne">
+    <nom>Loperamide</nom>
+    <dosage>2 mg</dosage>
+    <prix devise="DT">12</prix>
+    <quantite>1</quantite>
+    <indication>Diarrhee</indication>
+    <justification>Effet secondaire chimiotherapie</justification>
+    <effetsSecondaires>
+        <effet>Constipation</effet>
+    </effetsSecondaires>
+</medicament>
+
+<medicament id="M07" type="support" achete="oui" priorite="moyenne">
+    <nom>Paracetamol</nom>
+    <dosage>1000 mg</dosage>
+    <prix devise="DT">5</prix>
+    <quantite>2</quantite>
+    <indication>Douleur</indication>
+    <justification>Fatigue et douleurs generales</justification>
+    <effetsSecondaires>
+        <effet>Rare toxicite hepatique</effet>
+    </effetsSecondaires>
+</medicament>
+
+<medicament id="M08" type="support" achete="non" priorite="moyenne">
+    <nom>Omeprazole</nom>
+    <dosage>20 mg</dosage>
+    <prix devise="DT">14</prix>
+    <quantite>1</quantite>
+    <indication>Protection gastrique</indication>
+    <justification>Traitement long et effets digestifs</justification>
+    <effetsSecondaires>
+        <effet>Maux de tete</effet>
+    </effetsSecondaires>
+</medicament>
+
+<medicament id="M09" type="complement" achete="non" priorite="moyenne">
+    <nom>Zinc</nom>
+    <dosage>30 mg</dosage>
+    <prix devise="DT">15</prix>
+    <quantite>1</quantite>
+    <indication>Renforcement immunitaire</indication>
+    <justification>Baisse immunite dans analyses</justification>
+    <effetsSecondaires>
+        <effet>Nausees</effet>
+    </effetsSecondaires>
+</medicament>
+
+<medicament id="M10" type="complement" achete="non" priorite="moyenne">
+    <nom>Probiotiques</nom>
+    <dosage>10 milliards UFC</dosage>
+    <prix devise="DT">25</prix>
+    <quantite>1</quantite>
+    <indication>Flore intestinale</indication>
+    <justification>Desequilibre digestif</justification>
+    <effetsSecondaires>
+        <effet>Ballonnements</effet>
+    </effetsSecondaires>
+</medicament>
+
+</medicaments>

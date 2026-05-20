@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<analyses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="analyses.xsd"
+patientRef="P01">
+
+<analyse id="A2025_01">
+    <dateAnalyse>
+        <date>2025-01-08</date>
+        <heure>08:10:00</heure>
+    </dateAnalyse>
+    <laboratoire>
+        <nom>Hopital Charles Nicolle</nom>
+        <adresse>Tunis Tunisie</adresse>
+        <telephone>+21671320000</telephone>
+        <fax>+21671320001</fax>
+        <email>charles.nicolle@rns.tn</email>
+    </laboratoire>
+    <typeAnalyse>Hematologie</typeAnalyse>
+    <tests>
+        <test nom="Hemoglobine">
+            <valeur unite="g/dL">13.5</valeur>
+            <valeurUsuelle>12 - 16</valeurUsuelle>
+        </test>
+        <test nom="Plaquettes">
+            <valeur unite="10^3/uL">250</valeur>
+            <valeurUsuelle>150 - 400</valeurUsuelle>
+        </test>
+    </tests>
+    <conclusion statut="normal">Bilan hematologique normal</conclusion>
+</analyse>
+
+<analyse id="A2025_02">
+    <dateAnalyse>
+        <date>2025-02-20</date>
+        <heure>09:30:00</heure>
+    </dateAnalyse>
+    <laboratoire>
+        <nom>Laboratoire Lac 2</nom>
+        <adresse>Tunis Tunisie</adresse>
+        <telephone>+21671987654</telephone>
+        <fax>+21671987655</fax>
+        <email>lab.lac2@gmail.com</email>
+    </laboratoire>
+    <typeAnalyse>Diabete</typeAnalyse>
+    <tests>
+        <test nom="HbA1c">
+            <valeur unite="%">7.8</valeur>
+            <valeurUsuelle>4 - 6</valeurUsuelle>
+        </test>
+    </tests>
+    <conclusion statut="surveiller">Diabete mal equilibre</conclusion>
+</analyse>
+
+<analyse id="A2025_03">
+    <dateAnalyse>
+        <date>2025-03-15</date>
+        <heure>08:45:00</heure>
+    </dateAnalyse>
+    <laboratoire>
+        <nom>Clinique El Manar</nom>
+        <adresse>Tunis Tunisie</adresse>
+        <telephone>+21671700000</telephone>
+        <fax>+21671700001</fax>
+        <email>clinique.manar@tn.com</email>
+    </laboratoire>
+    <typeAnalyse>Pulmonaire</typeAnalyse>
+    <tests>
+        <test nom="SpO2">
+            <valeur unite="%">88</valeur>
+            <valeurUsuelle>95 - 100</valeurUsuelle>
+        </test>
+    </tests>
+    <conclusion statut="critique">Hypoxie importante</conclusion>
+</analyse>
+
+<analyse id="A2025_04">
+    <dateAnalyse>
+        <date>2025-04-22</date>
+        <heure>10:00:00</heure>
+    </dateAnalyse>
+    <laboratoire>
+        <nom>Laboratoire Pasteur</nom>
+        <adresse>Tunis Tunisie</adresse>
+        <telephone>+21675611111</telephone>
+        <fax>+21675622222</fax>
+        <email>pasteur.lab@gmail.com</email>
+    </laboratoire>
+    <typeAnalyse>Foie</typeAnalyse>
+    <tests>
+        <test nom="ALAT">
+            <valeur unite="U/L">80</valeur>
+            <valeurUsuelle>10 - 40</valeurUsuelle>
+        </test>
+        <test nom="ASAT">
+            <valeur unite="U/L">70</valeur>
+            <valeurUsuelle>10 - 40</valeurUsuelle>
+        </test>
+    </tests>
+    <conclusion statut="surveiller">Atteinte hepatique</conclusion>
+</analyse>
+
+<analyse id="A2025_05">
+    <dateAnalyse>
+        <date>2025-05-18</date>
+        <heure>09:15:00</heure>
+    </dateAnalyse>
+    <laboratoire>
+        <nom>Hopital Sahloul</nom>
+        <adresse>Sousse Tunisie</adresse>
+        <telephone>+21673250000</telephone>
+        <fax>+21673250001</fax>
+        <email>sahloul@rns.tn</email>
+    </laboratoire>
+    <typeAnalyse>Renal</typeAnalyse>
+    <tests>
+        <test nom="Creatinine">
+            <valeur unite="mg/L">20</valeur>
+            <valeurUsuelle>6 - 12</valeurUsuelle>
+        </test>
+    </tests>
+    <conclusion statut="critique">Insuffisance renale avancee</conclusion>
+</analyse>
+
+<analyse id="A2025_06">
+    <dateAnalyse>
+        <date>2025-06-25</date>
+        <heure>08:30:00</heure>
+    </dateAnalyse>
+    <laboratoire>
+        <nom>Laboratoire Bouzidi</nom>
+        <adresse>Zarzis Tunisie</adresse>
+        <telephone>+21675694329</telephone>
+        <fax>+21698430029</fax>
+        <email>labouzidihassen1@gmail.com</email>
+    </laboratoire>
+    <typeAnalyse>Hormonal</typeAnalyse>
+    <tests>
+        <test nom="TSH">
+            <valeur unite="uIU/ml">0.1</valeur>
+            <valeurUsuelle>0.34 - 5.60</valeurUsuelle>
+        </test>
+    </tests>
+    <conclusion statut="critique">Hyperthyroidie</conclusion>
+</analyse>
+
+<analyse id="A2025_07">
+    <dateAnalyse>
+        <date>2025-07-30</date>
+        <heure>09:40:00</heure>
+    </dateAnalyse>
+    <laboratoire>
+        <nom>Clinique Djerba</nom>
+        <adresse>Djerba Midoun</adresse>
+        <telephone>+21675700000</telephone>
+        <fax>+21675700001</fax>
+        <email>clinique@djerba.tn</email>
+    </laboratoire>
+    <typeAnalyse>Electrolytes</typeAnalyse>
+    <tests>
+        <test nom="Sodium">
+            <valeur unite="mmol/L">150</valeur>
+            <valeurUsuelle>135 - 145</valeurUsuelle>
+        </test>
+    </tests>
+    <conclusion statut="surveiller">Hypernatremie</conclusion>
+</analyse>
+
+<analyse id="A2025_08">
+    <dateAnalyse>
+        <date>2025-09-12</date>
+        <heure>08:20:00</heure>
+    </dateAnalyse>
+    <laboratoire>
+        <nom>Hopital Regional de Djerba</nom>
+        <adresse>Djerba Tunisie</adresse>
+        <telephone>+21675600000</telephone>
+        <fax>+21675600001</fax>
+        <email>hopital.djerba@rns.tn</email>
+    </laboratoire>
+    <typeAnalyse>Vitamine</typeAnalyse>
+    <tests>
+        <test nom="Vitamine B12">
+            <valeur unite="pg/ml">900</valeur>
+            <valeurUsuelle>174 - 878</valeurUsuelle>
+        </test>
+    </tests>
+    <conclusion statut="surveiller">Excès vitamine B12</conclusion>
+</analyse>
+
+</analyses>

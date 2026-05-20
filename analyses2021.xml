@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<analyses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="analyses.xsd"
+patientRef="P01">
+
+<analyse id="A2021_01">
+<dateAnalyse><date>2021-01-15</date><heure>08:10:00</heure></dateAnalyse>
+<laboratoire>
+<nom>Hopital Regional de Djerba</nom>
+<adresse>Djerba Tunisie</adresse>
+<telephone>+21675600000</telephone>
+<fax>+21675600001</fax>
+<email>hopital.djerba@rns.tn</email>
+</laboratoire>
+<typeAnalyse>Hematologie</typeAnalyse>
+<tests>
+<test nom="Hemoglobine"><valeur unite="g/dL">11.2</valeur><valeurUsuelle>12 - 16</valeurUsuelle></test>
+<test nom="Globules Blancs"><valeur unite="10^3/uL">3.5</valeur><valeurUsuelle>4 - 10</valeurUsuelle></test>
+</tests>
+<conclusion statut="surveiller">Debut anemie et baisse immunitaire</conclusion>
+</analyse>
+
+<analyse id="A2021_02">
+<dateAnalyse><date>2021-02-10</date><heure>09:00:00</heure></dateAnalyse>
+<laboratoire>
+<nom>Laboratoire Pasteur</nom>
+<adresse>Djerba Tunisie</adresse>
+<telephone>+21675611111</telephone>
+<fax>+21675622222</fax>
+<email>pasteur.lab@gmail.com</email>
+</laboratoire>
+<typeAnalyse>Biochimie</typeAnalyse>
+<tests>
+<test nom="Ferritine"><valeur unite="ng/ml">18</valeur><valeurUsuelle>30 - 400</valeurUsuelle></test>
+<test nom="CRP"><valeur unite="mg/L">7</valeur><valeurUsuelle>0 - 5</valeurUsuelle></test>
+</tests>
+<conclusion statut="surveiller">Inflammation et carence en fer</conclusion>
+</analyse>
+
+<analyse id="A2021_03">
+<dateAnalyse><date>2021-03-12</date><heure>08:30:00</heure></dateAnalyse>
+<laboratoire>
+<nom>Laboratoire Bouzidi</nom>
+<adresse>Zarzis Tunisie</adresse>
+<telephone>+21675694329</telephone>
+<fax>+21698430029</fax>
+<email>labouzidihassen1@gmail.com</email>
+</laboratoire>
+<typeAnalyse>Hematologie</typeAnalyse>
+<tests>
+<test nom="Globules Rouges"><valeur unite="10^6/uL">4.2</valeur><valeurUsuelle>4.5 - 6</valeurUsuelle></test>
+<test nom="Plaquettes"><valeur unite="10^3/uL">180</valeur><valeurUsuelle>150 - 400</valeurUsuelle></test>
+</tests>
+<conclusion statut="surveiller">Valeurs basses</conclusion>
+</analyse>
+
+<analyse id="A2021_04">
+<dateAnalyse><date>2021-04-05</date><heure>10:00:00</heure></dateAnalyse>
+<laboratoire>
+<nom>Clinique Djerba</nom>
+<adresse>Djerba Midoun</adresse>
+<telephone>+21675700000</telephone>
+<fax>+21675700001</fax>
+<email>clinique@djerba.tn</email>
+</laboratoire>
+<typeAnalyse>Renal</typeAnalyse>
+<tests>
+<test nom="Creatinine"><valeur unite="mg/L">11</valeur><valeurUsuelle>6 - 12</valeurUsuelle></test>
+<test nom="Uree"><valeur unite="g/L">0.40</valeur><valeurUsuelle>0.15 - 0.45</valeurUsuelle></test>
+</tests>
+<conclusion statut="normal">Fonction renale normale</conclusion>
+</analyse>
+
+<analyse id="A2021_05">
+<dateAnalyse><date>2021-05-18</date><heure>09:45:00</heure></dateAnalyse>
+<laboratoire>
+<nom>Laboratoire Pasteur</nom>
+<adresse>Djerba Tunisie</adresse>
+<telephone>+21675611111</telephone>
+<fax>+21675622222</fax>
+<email>pasteur.lab@gmail.com</email>
+</laboratoire>
+<typeAnalyse>Marqueur Tumoral</typeAnalyse>
+<tests>
+<test nom="CEA"><valeur unite="ng/ml">5.5</valeur><valeurUsuelle>0 - 3</valeurUsuelle></test>
+</tests>
+<conclusion statut="critique">Marqueur eleve</conclusion>
+</analyse>
+
+<analyse id="A2021_06">
+<dateAnalyse><date>2021-06-10</date><heure>09:30:00</heure></dateAnalyse>
+<laboratoire>
+<nom>Laboratoire Bouzidi</nom>
+<adresse>Zarzis Tunisie</adresse>
+<telephone>+21675694329</telephone>
+<fax>+21698430029</fax>
+<email>labouzidihassen1@gmail.com</email>
+</laboratoire>
+<typeAnalyse>Hormonologie</typeAnalyse>
+<tests>
+<test nom="TSH"><valeur unite="uIU/ml">0.60</valeur><valeurUsuelle>0.34 - 5.60</valeurUsuelle></test>
+<test nom="FT4"><valeur unite="pmol/L">16</valeur><valeurUsuelle>12 - 22</valeurUsuelle></test>
+</tests>
+<conclusion statut="normal">Fonction hormonale stable</conclusion>
+</analyse>
+
+<analyse id="A2021_07">
+<dateAnalyse><date>2021-07-20</date><heure>08:50:00</heure></dateAnalyse>
+<laboratoire>
+<nom>Hopital Regional de Djerba</nom>
+<adresse>Djerba Tunisie</adresse>
+<telephone>+21675600000</telephone>
+<fax>+21675600001</fax>
+<email>hopital.djerba@rns.tn</email>
+</laboratoire>
+<typeAnalyse>Biochimie</typeAnalyse>
+<tests>
+<test nom="Albumine"><valeur unite="g/L">30</valeur><valeurUsuelle>35 - 50</valeurUsuelle></test>
+</tests>
+<conclusion statut="surveiller">Etat nutritionnel faible</conclusion>
+</analyse>
+
+<analyse id="A2021_08">
+<dateAnalyse><date>2021-08-11</date><heure>09:15:00</heure></dateAnalyse>
+<laboratoire>
+<nom>Clinique Djerba</nom>
+<adresse>Djerba Midoun</adresse>
+<telephone>+21675700000</telephone>
+<fax>+21675700001</fax>
+<email>clinique@djerba.tn</email>
+</laboratoire>
+<typeAnalyse>Inflammation</typeAnalyse>
+<tests>
+<test nom="CRP"><valeur unite="mg/L">9</valeur><valeurUsuelle>0 - 5</valeurUsuelle></test>
+</tests>
+<conclusion statut="surveiller">Inflammation persistante</conclusion>
+</analyse>
+
+<analyse id="A2021_09">
+<dateAnalyse><date>2021-09-03</date><heure>08:20:00</heure></dateAnalyse>
+<laboratoire>
+<nom>Laboratoire Pasteur</nom>
+<adresse>Djerba Tunisie</adresse>
+<telephone>+21675611111</telephone>
+<fax>+21675622222</fax>
+<email>pasteur.lab@gmail.com</email>
+</laboratoire>
+<typeAnalyse>Hematologie</typeAnalyse>
+<tests>
+<test nom="Hemoglobine"><valeur unite="g/dL">10.8</valeur><valeurUsuelle>12 - 16</valeurUsuelle></test>
+</tests>
+<conclusion statut="critique">Anemie aggravee</conclusion>
+</analyse>
+
+<analyse id="A2021_10">
+<dateAnalyse><date>2021-10-14</date><heure>09:10:00</heure></dateAnalyse>
+<laboratoire>
+<nom>Hopital Regional de Djerba</nom>
+<adresse>Djerba Tunisie</adresse>
+<telephone>+21675600000</telephone>
+<fax>+21675600001</fax>
+<email>hopital.djerba@rns.tn</email>
+</laboratoire>
+<typeAnalyse>Glycemie</typeAnalyse>
+<tests>
+<test nom="Glycemie"><valeur unite="g/L">1.2</valeur><valeurUsuelle>0.7 - 1.1</valeurUsuelle></test>
+</tests>
+<conclusion statut="surveiller">Hyperglycemie legere</conclusion>
+</analyse>
+
+<analyse id="A2021_11">
+<dateAnalyse><date>2021-11-01</date><heure>08:40:00</heure></dateAnalyse>
+<laboratoire>
+<nom>Laboratoire Bouzidi</nom>
+<adresse>Zarzis Tunisie</adresse>
+<telephone>+21675694329</telephone>
+<fax>+21698430029</fax>
+<email>labouzidihassen1@gmail.com</email>
+</laboratoire>
+<typeAnalyse>Fer</typeAnalyse>
+<tests>
+<test nom="Ferritine"><valeur unite="ng/ml">15</valeur><valeurUsuelle>30 - 400</valeurUsuelle></test>
+</tests>
+<conclusion statut="critique">Carence severe en fer</conclusion>
+</analyse>
+
+<analyse id="A2021_12">
+<dateAnalyse><date>2021-11-20</date><heure>09:00:00</heure></dateAnalyse>
+<laboratoire>
+<nom>Clinique Djerba</nom>
+<adresse>Djerba Midoun</adresse>
+<telephone>+21675700000</telephone>
+<fax>+21675700001</fax>
+<email>clinique@djerba.tn</email>
+</laboratoire>
+<typeAnalyse>Hematologie</typeAnalyse>
+<tests>
+<test nom="Globules Blancs"><valeur unite="10^3/uL">3.2</valeur><valeurUsuelle>4 - 10</valeurUsuelle></test>
+</tests>
+<conclusion statut="critique">Immunite tres faible</conclusion>
+</analyse>
+
+<analyse id="A2021_13">
+<dateAnalyse><date>2021-12-05</date><heure>08:30:00</heure></dateAnalyse>
+<laboratoire>
+<nom>Hopital Regional de Djerba</nom>
+<adresse>Djerba Tunisie</adresse>
+<telephone>+21675600000</telephone>
+<fax>+21675600001</fax>
+<email>hopital.djerba@rns.tn</email>
+</laboratoire>
+<typeAnalyse>Renal</typeAnalyse>
+<tests>
+<test nom="Creatinine"><valeur unite="mg/L">10</valeur><valeurUsuelle>6 - 12</valeurUsuelle></test>
+</tests>
+<conclusion statut="normal">Stable</conclusion>
+</analyse>
+
+<analyse id="A2021_14">
+<dateAnalyse><date>2021-12-15</date><heure>09:20:00</heure></dateAnalyse>
+<laboratoire>
+<nom>Laboratoire Pasteur</nom>
+<adresse>Djerba Tunisie</adresse>
+<telephone>+21675611111</telephone>
+<fax>+21675622222</fax>
+<email>pasteur.lab@gmail.com</email>
+</laboratoire>
+<typeAnalyse>Marqueur Tumoral</typeAnalyse>
+<tests>
+<test nom="CA19-9"><valeur unite="U/ml">45</valeur><valeurUsuelle>0 - 37</valeurUsuelle></test>
+</tests>
+<conclusion statut="surveiller">Valeur elevee</conclusion>
+</analyse>
+
+<analyse id="A2021_15">
+<dateAnalyse><date>2021-12-28</date><heure>08:55:00</heure></dateAnalyse>
+<laboratoire>
+<nom>Laboratoire Bouzidi</nom>
+<adresse>Zarzis Tunisie</adresse>
+<telephone>+21675694329</telephone>
+<fax>+21698430029</fax>
+<email>labouzidihassen1@gmail.com</email>
+</laboratoire>
+<typeAnalyse>Biochimie</typeAnalyse>
+<tests>
+<test nom="Vitamine B12"><valeur unite="pg/ml">190</valeur><valeurUsuelle>174 - 878</valeurUsuelle></test>
+</tests>
+<conclusion statut="surveiller">Limite basse</conclusion>
+</analyse>
+
+</analyses>
